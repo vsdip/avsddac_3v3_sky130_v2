@@ -629,6 +629,7 @@ C53 a_3063_6871# SUB 2.04fF
 C54 a_3109_7468# SUB 2.33fF
 C55 a_813_7368# SUB 2.33fF
 C56 a_3113_7291# SUB 2.20fF
+C57 vout gnd 50fF
 
 Vdd vdd 0 dc 1.8
 Vsub SUB 0 dc 0
