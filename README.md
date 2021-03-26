@@ -94,7 +94,7 @@ The schematic of 2 bit DAC is as shown below:
 
 The result of the transient analysis of the 2bit DAC is shown below:
 
-![2bit dac op](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/DAC_Prelayout/Screenshots/2bitDAC_op.png)
+![2bit dac op](https://github.com/vsdip/avsddac_3v3_sky130_v2/tree/main/DAC_Prelayout/Screenshots/2bitDAC_op.png)
 
 The spice file 2bitDAC.spice was used.
 The two bit digital inputs were given as 11, 10, 01 and 00. It can be observed that when the inputs are 1 1, 2.47V appears at the output. When the inputs are 1 0, 1.57 V appears at the output. Similarly, for the inputs 0 1 and 0 0, 0.76V and 0 V appear at output respectively. Thus, the 2 bit digital input is converted to corresponding analog values with reference voltage of 3.3 V. 
@@ -102,11 +102,11 @@ The two bit digital inputs were given as 11, 10, 01 and 00. It can be observed t
 ## 3 bit DAC
 For the 3 bit DAC, the subcircuits 2bit_DAC.sub and switch.sub were used. The schematic is as shown below:
 
-![3bitDAC](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/DAC_Prelayout/Screenshots/3bitDAC.png)
+![3bitDAC](https://github.com/vsdip/avsddac_3v3_sky130_v2/tree/main/DAC_Prelayout/Screenshots/3bitDAC.png)
 
 The result of transient analysis of 3 bit DAC is shown below:
 
-![3bit dac op](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/DAC_Prelayout/Screenshots/3bitDAC_op.png)
+![3bit dac op](https://github.com/vsdip/avsddac_3v3_sky130_v2/tree/main/DAC_Prelayout/Screenshots/3bitDAC_op.png)
 
 Here, there are 3 digital input bits and hence 8 steps in the analog output.
 
@@ -115,11 +115,11 @@ The subcircuit of 3bit DAC was created which included the 2bit DAC and switch su
 ## 4 bit DAC
 For the 4 bit DAC, the subcircuits 3bit_DAC.sub and switch.sub were used. The eSim schematic is as shown below:
 
-![4bitDAC](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/DAC_Prelayout/Screenshots/4bitDAC.png)
+![4bitDAC](https://github.com/vsdip/avsddac_3v3_sky130_v2/tree/main/DAC_Prelayout/Screenshots/4bitDAC.png)
 
 The result of the transient analysis of the circuit is shown below:
 
-![4bit dac op](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/DAC_Prelayout/Screenshots/4bitDAC_op.png)
+![4bit dac op](https://github.com/vsdip/avsddac_3v3_sky130_v2/tree/main/DAC_Prelayout/Screenshots/4bitDAC_op.png)
 
 Here, there are 4 digital input bits and hence 16 steps in the analog output.
 
@@ -128,11 +128,11 @@ The subcircuit of 4 bit DAC was created which included 3bit DAC and switch.
 ## 5 bit DAC
 For the 5 bit DAC, the subcircuits 4bit_DAC.sub and switch.sub were used. The eSim schematic is as shown below:
 
-![5bitDAC](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/DAC_Prelayout/Screenshots/5bitDAC.png)
+![5bitDAC](https://github.com/vsdip/avsddac_3v3_sky130_v2/tree/main/DAC_Prelayout/Screenshots/5bitDAC.png)
 
 The result of the transient analysis of the circuit is shown below:
 
-![5bit dac op](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/DAC_Prelayout/Screenshots/5bitDAC_op.png)
+![5bit dac op](https://github.com/vsdip/avsddac_3v3_sky130_v2/tree/main/DAC_Prelayout/Screenshots/5bitDAC_op.png)
 
 Here, there are 5 digital input bits and hence 32 steps in the analog output.
 
@@ -141,11 +141,11 @@ The subcircuit of 5 bit DAC was created which included 4bit DAC and switch.
 ## 6 bit DAC
 For the 6 bit DAC, the subcircuits 5bit_DAC.sub and switch.sub were used. The eSim schematic is as shown below:
 
-![6bitDAC](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/DAC_Prelayout/Screenshots/6bitDAC.png)
+![6bitDAC](https://github.com/vsdip/avsddac_3v3_sky130_v2/tree/main/DAC_Prelayout/Screenshots/6bitDAC.png)
 
 The result of the transient analysis of the circuit is shown below:
 
-![6bit dac op](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/DAC_Prelayout/Screenshots/6bitDAC_op.png)
+![6bit dac op](https://github.com/vsdip/avsddac_3v3_sky130_v2/tree/main/DAC_Prelayout/Screenshots/6bitDAC_op.png)
 
 Here, there are 6 digital input bits and hence 64 steps in the analog output.
 
@@ -154,11 +154,11 @@ The subcircuit of 6 bit DAC was created which included 5bit DAC and switch.
 ## 7 bit DAC
 For the 7 bit DAC, the subcircuits 6bit_DAC.sub and switch.sub were used. The eSim schematic is as shown below:
 
-![7bitDAC](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/DAC_Prelayout/Screenshots/7bitDAC.png)
+![7bitDAC](https://github.com/vsdip/avsddac_3v3_sky130_v2/tree/main/DAC_Prelayout/Screenshots/7bitDAC.png)
 
 The result of the transient analysis of the circuit is shown below:
 
-![7bit dac op](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/DAC_Prelayout/Screenshots/7bitDAC_op.png)
+![7bit dac op](https://github.com/vsdip/avsddac_3v3_sky130_v2/tree/main/DAC_Prelayout/Screenshots/7bitDAC_op.png)
 
 Here, there are 7 digital input bits and hence 128 steps in the analog output.
 
@@ -167,18 +167,18 @@ The subcircuit of 7 bit DAC was created which included 6bit DAC and switch.
 ## 8 bit DAC
 For the 8 bit DAC, the subcircuits 7bit_DAC.sub and switch.sub were used. The eSim schematic is as shown below:
 
-![8bitDAC](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/DAC_Prelayout/Screenshots/8bitDAC.png)
+![8bitDAC](https://github.com/vsdip/avsddac_3v3_sky130_v2/tree/main/DAC_Prelayout/Screenshots/8bitDAC.png)
 
 Here, there are 8 digital input bits and hence 256 steps in the analog output.
 
-![8bit dac op](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/DAC_Prelayout/Screenshots/8bitDAC_op.png)
+![8bit dac op](https://github.com/vsdip/avsddac_3v3_sky130_v2/tree/main/DAC_Prelayout/Screenshots/8bitDAC_op.png)
 
 The subcircuit of 8 bit DAC was created which included 7bit DAC and switch.
 
 ## 9 bit DAC
 For the 9 bit DAC, the subcircuits 8bit_DAC.sub and switch.sub were used. The eSim schematic is as shown below:
 
-![9bitDAC](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/DAC_Prelayout/Screenshots/9bitDAC.png)
+![9bitDAC](https://github.com/vsdip/avsddac_3v3_sky130_v2/tree/main/DAC_Prelayout/Screenshots/9bitDAC.png)
 
 The transient response of this schematic could not be obtained. The ngspice session got killed.
 
@@ -187,7 +187,7 @@ However, the subcircuit of 9 bit DAC was created which included 8bit DAC and swi
 ## 10 bit DAC
 For the 10 bit DAC, the subcircuits 9bit_DAC.sub and switch.sub were used. The eSim schematic is as shown below:
 
-![10bitDAC](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/DAC_Prelayout/Screenshots/10bitDAC.png)
+![10bitDAC](https://github.com/vsdip/avsddac_3v3_sky130_v2/tree/main/DAC_Prelayout/Screenshots/10bitDAC.png)
 
 The transient response of this schematic could not be obtained. The ngspice session got killed. 
 
