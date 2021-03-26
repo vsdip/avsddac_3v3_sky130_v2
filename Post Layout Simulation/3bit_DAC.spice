@@ -74,6 +74,7 @@ C2 a_817_n886# SUB 2.20fF
 C3 a_818_n471# SUB 2.33fF
 C4 a_812_95# SUB 2.20fF
 C5 a_813_510# SUB 2.33fF
+Cout vout 0 50fF
 
 Vdd vdd 0 dc 1.8
 Vsub SUB 0 dc 0
