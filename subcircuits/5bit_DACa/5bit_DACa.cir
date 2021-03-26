@@ -1,0 +1,74 @@
+* C:\FOSSEE\eSim\library\SubcircuitLibrary\5bit_DACa\5bit_DACa.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 02/18/21 21:55:19
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+R1  /vrefh Net-_R1-Pad2_ resistor		
+R2  Net-_R1-Pad2_ Net-_R2-Pad2_ resistor		
+R3  Net-_R2-Pad2_ Net-_R3-Pad2_ resistor		
+R4  Net-_R3-Pad2_ Net-_R4-Pad2_ resistor		
+R5  Net-_R4-Pad2_ Net-_R5-Pad2_ resistor		
+R6  Net-_R5-Pad2_ Net-_R6-Pad2_ resistor		
+R7  Net-_R6-Pad2_ Net-_R7-Pad2_ resistor		
+R8  Net-_R7-Pad2_ Net-_R8-Pad2_ resistor		
+R9  Net-_R8-Pad2_ Net-_R10-Pad1_ resistor		
+R10  Net-_R10-Pad1_ Net-_R10-Pad2_ resistor		
+R11  Net-_R10-Pad2_ Net-_R11-Pad2_ resistor		
+R12  Net-_R11-Pad2_ Net-_R12-Pad2_ resistor		
+R13  Net-_R12-Pad2_ Net-_R13-Pad2_ resistor		
+R14  Net-_R13-Pad2_ Net-_R14-Pad2_ resistor		
+R15  Net-_R14-Pad2_ Net-_R15-Pad2_ resistor		
+R16  Net-_R15-Pad2_ Net-_R16-Pad2_ resistor		
+R32  /vrefl Net-_R31-Pad1_ resistor		
+R31  Net-_R31-Pad1_ Net-_R30-Pad1_ resistor		
+R30  Net-_R30-Pad1_ Net-_R29-Pad1_ resistor		
+R29  Net-_R29-Pad1_ Net-_R28-Pad1_ resistor		
+R28  Net-_R28-Pad1_ Net-_R27-Pad1_ resistor		
+R27  Net-_R27-Pad1_ Net-_R26-Pad1_ resistor		
+R26  Net-_R26-Pad1_ Net-_R25-Pad1_ resistor		
+R25  Net-_R25-Pad1_ Net-_R24-Pad1_ resistor		
+R24  Net-_R24-Pad1_ Net-_R23-Pad1_ resistor		
+R23  Net-_R23-Pad1_ Net-_R22-Pad1_ resistor		
+R22  Net-_R22-Pad1_ Net-_R21-Pad1_ resistor		
+R21  Net-_R21-Pad1_ Net-_R20-Pad1_ resistor		
+R20  Net-_R20-Pad1_ Net-_R19-Pad1_ resistor		
+R19  Net-_R19-Pad1_ Net-_R18-Pad1_ resistor		
+R18  Net-_R18-Pad1_ Net-_R17-Pad1_ resistor		
+R17  Net-_R17-Pad1_ Net-_R16-Pad2_ resistor		
+X1  /d0 /vdd Net-_R1-Pad2_ Net-_R2-Pad2_ Net-_X1-Pad5_ switch		
+X2  /d0 /vdd Net-_R3-Pad2_ Net-_R4-Pad2_ Net-_X11-Pad4_ switch		
+X3  /d0 /vdd Net-_R5-Pad2_ Net-_R6-Pad2_ Net-_X12-Pad3_ switch		
+X4  /d0 /vdd Net-_R7-Pad2_ Net-_R8-Pad2_ Net-_X12-Pad4_ switch		
+X5  /d0 /vdd Net-_R10-Pad1_ Net-_R10-Pad2_ Net-_X13-Pad3_ switch		
+X6  /d0 /vdd Net-_R11-Pad2_ Net-_R12-Pad2_ Net-_X13-Pad4_ switch		
+X7  /d0 /vdd Net-_R13-Pad2_ Net-_R14-Pad2_ Net-_X14-Pad3_ switch		
+X8  /d0 /vdd Net-_R15-Pad2_ Net-_R16-Pad2_ Net-_X14-Pad4_ switch		
+X9  /d0 /vdd Net-_R17-Pad1_ Net-_R18-Pad1_ Net-_X15-Pad3_ switch		
+X10  /d0 /vdd Net-_R19-Pad1_ Net-_R20-Pad1_ Net-_X10-Pad5_ switch		
+X110  /d0 /vdd Net-_R21-Pad1_ Net-_R22-Pad1_ Net-_X110-Pad5_ switch		
+X120  /d0 /vdd Net-_R23-Pad1_ Net-_R24-Pad1_ Net-_X120-Pad5_ switch		
+X130  /d0 /vdd Net-_R25-Pad1_ Net-_R26-Pad1_ Net-_X130-Pad5_ switch		
+X140  /d0 /vdd Net-_R27-Pad1_ Net-_R28-Pad1_ Net-_X140-Pad5_ switch		
+X150  /d0 /vdd Net-_R29-Pad1_ Net-_R30-Pad1_ Net-_X150-Pad5_ switch		
+X160  /d0 /vdd Net-_R31-Pad1_ /vrefl Net-_X160-Pad5_ switch		
+X11  /d1 /vdd Net-_X1-Pad5_ Net-_X11-Pad4_ Net-_X11-Pad5_ switch		
+X12  /d1 /vdd Net-_X12-Pad3_ Net-_X12-Pad4_ Net-_X12-Pad5_ switch		
+X13  /d1 /vdd Net-_X13-Pad3_ Net-_X13-Pad4_ Net-_X13-Pad5_ switch		
+X14  /d1 /vdd Net-_X14-Pad3_ Net-_X14-Pad4_ Net-_X14-Pad5_ switch		
+X15  /d1 /vdd Net-_X15-Pad3_ Net-_X10-Pad5_ Net-_X15-Pad5_ switch		
+X16  /d1 /vdd Net-_X110-Pad5_ Net-_X120-Pad5_ Net-_X16-Pad5_ switch		
+X17  /d1 /vdd Net-_X130-Pad5_ Net-_X140-Pad5_ Net-_X17-Pad5_ switch		
+X18  /d1 /vdd Net-_X150-Pad5_ Net-_X160-Pad5_ Net-_X18-Pad5_ switch		
+X21  /d2 /vdd Net-_X11-Pad5_ Net-_X12-Pad5_ Net-_X21-Pad5_ switch		
+X24  /d2 /vdd Net-_X17-Pad5_ Net-_X18-Pad5_ Net-_X24-Pad5_ switch		
+X22  /d2 /vdd Net-_X13-Pad5_ Net-_X14-Pad5_ Net-_X22-Pad5_ switch		
+X23  /d2 /vdd Net-_X15-Pad5_ Net-_X16-Pad5_ Net-_X23-Pad5_ switch		
+X31  /d3 /vdd Net-_X21-Pad5_ Net-_X22-Pad5_ Net-_X31-Pad5_ switch		
+X32  /d3 /vdd Net-_X23-Pad5_ Net-_X24-Pad5_ Net-_X32-Pad5_ switch		
+X41  /d4 /vdd Net-_X31-Pad5_ Net-_X32-Pad5_ /vout switch		
+U1  /vrefh /vrefl /d0 /d1 /d2 /d3 /d4 /vdd /vout PORT		
+
+.end
