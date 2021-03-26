@@ -348,7 +348,7 @@ The simulations of higher bit DACs consume more time.
 
 # Further Work
 
-Further work would be to obtain the simulatios of 9 bit DAC and 10 bit DAC and prepare a proper documentation.
+Further work would be to obtain the simulatios of 9 bit DAC and 10 bit DAC and calculate INL and DNL for 10 bit DAC.
 
 # Author
 
