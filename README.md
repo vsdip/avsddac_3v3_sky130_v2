@@ -275,7 +275,7 @@ The spice file was extracted and the output was observed as shown below:
 
 The layout for 5bit DAC was drawn as shown below:
 
-![5bitDAC layout](hhttps://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/5bit_DAC.png)
+![5bitDAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/5bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
 
