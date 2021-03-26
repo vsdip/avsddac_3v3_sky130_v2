@@ -1,0 +1,14 @@
+* C:\FOSSEE\eSim\library\SubcircuitLibrary\6bit_DAC\6bit_DAC.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 02/15/21 17:10:20
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+X1  /vrefh Net-_X1-Pad2_ /d0 /d1 /d2 /d3 /d4 /vdd Net-_X1-Pad9_ 5bit_DAC		
+X2  Net-_X1-Pad2_ /vrefl /d0 /d1 /d2 /d3 /d4 /vdd Net-_X2-Pad9_ 5bit_DAC		
+X3  /d5 /vdd Net-_X1-Pad9_ Net-_X2-Pad9_ /vout switch		
+U1  /vrefh /vrefl /d0 /d1 /d2 /d3 /d4 /d5 /vdd /vout PORT		
+
+.end
