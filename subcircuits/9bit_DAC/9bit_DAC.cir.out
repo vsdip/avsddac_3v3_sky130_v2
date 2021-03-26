@@ -1,0 +1,17 @@
+* c:\fossee\esim\library\subcircuitlibrary\9bit_dac\9bit_dac.cir
+
+.include 8bit_DAC.sub
+.include switch.sub
+x1 /vrefh net-_x1-pad2_ /d0 /d1 /d2 /d3 /d4 /d5 /d6 /d7 /vdd net-_x1-pad12_ 8bit_DAC
+x2 net-_x1-pad2_ /vrefl /d0 /d1 /d2 /d3 /d4 /d5 /d6 /d7 /vdd net-_x2-pad12_ 8bit_DAC
+x3 /d8 /vdd net-_x1-pad12_ net-_x2-pad12_ /vout switch
+* u1  /vrefh /vrefl /d0 /d1 /d2 /d3 /d4 /d5 /d6 /d7 /d8 /vdd /vout port
+.tran 0e-00 0e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc
+.end
