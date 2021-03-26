@@ -1,0 +1,17 @@
+* c:\users\91809\esim-workspace\6bit_dac\6bit_dac.cir
+
+.include 5bit_DAC.sub
+.include switch.sub
+x1 /vrefh net-_x1-pad2_ /d0 /d1 /d2 /d3 /d4 /vdd net-_x1-pad9_ 5bit_DAC
+x2 net-_x1-pad2_ /vrefl /d0 /d1 /d2 /d3 /d4 /vdd net-_x2-pad9_ 5bit_DAC
+x3 /d5 /vdd net-_x1-pad9_ net-_x2-pad9_ /vout switch
+* u1  /vrefh /vrefl /d0 /d1 /d2 /d3 /d4 /d5 /vdd /vout port
+.tran 0e-00 0e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc
+.end
