@@ -1,0 +1,29 @@
+* c:\users\91809\esim-workspace\2bit_dac\2bit_dac.cir
+.options wnflag=1
+
+.include switch.sub
+
+r4  vdd net-_r3-pad1_ 250
+r3  net-_r3-pad1_ net-_r2-pad1_ 250
+r2  net-_r2-pad1_ net-_r1-pad1_ 250
+r1  net-_r1-pad1_ gnd 250
+xswitch1  net-_r3-pad1_ net-_r2-pad1_ vdd d0 net-_switch1-pad4_ switch
+xswitch2  net-_r1-pad1_ gnd vdd d0 net-_switch2-pad4_ switch
+xswitch3  net-_switch1-pad4_ net-_switch2-pad4_ vdd d1 vout switch
+* u1  /vdd /d0 /d1 /vout port
+
+Vdd vdd 0 3.3
+Vd0 d0 0 pulse(0 1.8 0ns 1ps 1ps 5us 10us)
+Vd1 d1 0 pulse(0 1.8 0ns 1ps 1ps 10us 20us)
+
+.tran 1us 20us
+
+* Control Statements 
+
+
+.control
+run 
+plot d0 d1 vout
+.endc
+
+.end

@@ -1,0 +1,31 @@
+* c:\users\91809\esim-workspace\9bit_dac\9bit_dac.cir
+.options wnflag=1
+
+.include 8bit_DAC.sub
+.include switch.sub
+x1 vrefh net-_x1-pad2_ d0 d1 d2 d3 d4 d5 d6 d7 vdd net-_x1-pad12_ 8bit_DAC
+x2 net-_x1-pad2_ vrefl d0 d1 d2 d3 d4 d5 d6 d7 vdd net-_x2-pad12_ 8bit_DAC
+x3 d8 vdd net-_x1-pad12_ net-_x2-pad12_ vout switch
+* u1  /vrefh /vrefl /d0 /d1 /d2 /d3 /d4 /d5 /d6 /d7 /d8 /vdd /vout port
+
+Vdd vdd 0 3.3
+Vd0 d0 0 pulse(0 1.8 0ns 1ps 1ps 5ns 10ns)
+Vd1 d1 0 pulse(0 1.8 0ns 1ps 1ps 10ns 20ns)
+Vd2 d2 0 pulse(0 1.8 0ns 1ps 1ps 20ns 40ns)
+Vd3 d3 0 pulse(0 1.8 0ns 1ps 1ps 40ns 80ns)
+Vd4 d4 0 pulse(0 1.8 0ns 1ps 1ps 80ns 160ns)
+Vd5 d5 0 pulse(0 1.8 0ns 1ps 1ps 160ns 320ns)
+Vd6 d6 0 pulse(0 1.8 0ns 1ps 1ps 320ns 640ns)
+Vd7 d7 0 pulse(0 1.8 0ns 1ps 1ps 640ns 1280ns)
+Vd8 d8 0 pulse(0 1.8 0ns 1ps 1ps 1280ns 2560ns)
+Vrefh vrefh 0 3.3
+Vrefl vrefl 0 0
+
+.tran 1280ns 2560ns
+
+* Control Statements 
+.control
+run
+plot vout
+.endc
+.end
