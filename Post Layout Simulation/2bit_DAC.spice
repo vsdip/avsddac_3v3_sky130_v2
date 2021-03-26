@@ -1,0 +1,50 @@
+* SPICE3 file created from 2bit_DAC.ext - technology: sky130A
+
+*.option scale=10000u
+
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+X0 a_367_n360# a_154_n360# gnd SUB sky130_fd_pr__nfet_01v8 w=0.42 l=0.5
+X1 a_368_55# a_155_55# vdd vdd sky130_fd_pr__pfet_01v8 w=1.0 l=0.5
+X2 a_155_55# d0 gnd SUB sky130_fd_pr__nfet_01v8 w=0.42 l=0.5
+X3 a_576_55# a_155_55# a_n121_n45# SUB sky130_fd_pr__nfet_01v8 w=0.42 l=0.5
+X4 a_154_n360# d0 gnd SUB sky130_fd_pr__nfet_01v8 w=0.42 l=0.5
+X5 a_1167_n126# d1 gnd SUB sky130_fd_pr__nfet_01v8 w=0.42 l=0.5
+X6 a_n121_n45# a_n119_n144# SUB sky130_fd_pr__res_generic_nd w=0.17 l=0.81
+X7 a_n119_n144# gnd SUB sky130_fd_pr__res_generic_nd w=0.17 l=0.81
+X8 a_n119_n144# a_367_n360# a_575_n360# SUB sky130_fd_pr__nfet_01v8 w=0.42 l=0.5
+X9 a_576_55# a_1380_n126# vout SUB sky130_fd_pr__nfet_01v8 w=0.42 l=0.5
+X10 a_368_55# a_155_55# gnd SUB sky130_fd_pr__nfet_01v8 w=0.42 l=0.5
+X11 a_n121_237# a_n121_n45# SUB sky130_fd_pr__res_generic_nd w=0.17 l=0.81
+X12 a_575_n360# a_154_n360# a_n119_n144# vdd sky130_fd_pr__pfet_01v8 w=1.0 l=0.5
+X13 a_575_n360# a_1380_n126# vout vdd sky130_fd_pr__pfet_01v8 w=1.0 l=0.5
+X14 vref a_n121_237# SUB sky130_fd_pr__res_generic_nd w=0.17 l=0.81
+X15 a_155_55# d0 vdd vdd sky130_fd_pr__pfet_01v8 w=1.0 l=0.5
+X16 a_576_55# a_155_55# a_n121_237# vdd sky130_fd_pr__pfet_01v8 w=1.0 l=0.5
+X17 a_1380_n126# a_1167_n126# gnd SUB sky130_fd_pr__nfet_01v8 w=0.42 l=0.5
+X18 a_1167_n126# d1 vdd vdd sky130_fd_pr__pfet_01v8 w=1.0 l=0.5
+X19 vout a_1167_n126# a_576_55# vdd sky130_fd_pr__pfet_01v8 w=1.0 l=0.5
+X20 a_1380_n126# a_1167_n126# vdd vdd sky130_fd_pr__pfet_01v8 w=1.0 l=0.5
+X21 a_575_n360# a_154_n360# gnd SUB sky130_fd_pr__nfet_01v8 w=0.42 l=0.5
+X22 vout a_1167_n126# a_575_n360# SUB sky130_fd_pr__nfet_01v8 w=0.42 l=0.5
+X23 a_367_n360# a_154_n360# vdd vdd sky130_fd_pr__pfet_01v8 w=1.0 l=0.5
+X24 a_154_n360# d0 vdd vdd sky130_fd_pr__pfet_01v8 w=1.0 l=0.5
+X25 a_n121_237# a_368_55# a_576_55# SUB sky130_fd_pr__nfet_01v8 w=0.42 l=0.5
+X26 gnd a_367_n360# a_575_n360# vdd sky130_fd_pr__pfet_01v8 w=1.0 l=0.5
+X27 a_n121_n45# a_368_55# a_576_55# vdd sky130_fd_pr__pfet_01v8 w=1.0 l=0.5
+C0 vdd SUB 3.13fF
+C1 a_575_n360# SUB 2.20fF
+C2 a_576_55# SUB 2.33fF
+
+Vdd vdd 0 dc 1.8
+Vsub SUB 0 dc 0
+Vin1 vref 0 dc 3.3
+Vd0 d0 0 pulse(0 1.8 0ns 0.1ps 0.1ps 5us 10us)
+Vd1 d1 0 pulse(0 1.8 0ns 0.1ps 0.1ps 10us 20us)
+
+.tran 0.1us 20us
+.control
+run
+plot V(vout) V(d0) V(d1)
+.endc
+.end

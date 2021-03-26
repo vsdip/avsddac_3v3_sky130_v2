@@ -1,0 +1,12 @@
+* SPICE3 file created from switch1.ext - technology: sky130A
+
+.option scale=10000u
+
+X0 a_308_n101# a_95_n101# gnd SUB sky130_fd_pr__nfet_01v8 w=42 l=50
+X1 a_95_n101# d0 vdd vdd sky130_fd_pr__pfet_01v8 w=100 l=50
+X2 a_417_n101# a_308_n101# vout vdd sky130_fd_pr__pfet_01v8 w=100 l=50
+X3 a_422_18# a_308_n101# vout SUB sky130_fd_pr__nfet_01v8 w=42 l=50
+X4 a_95_n101# d0 gnd SUB sky130_fd_pr__nfet_01v8 w=42 l=50
+X5 vout a_95_n101# a_422_18# vdd sky130_fd_pr__pfet_01v8 w=100 l=50
+X6 vout a_95_n101# a_417_n101# SUB sky130_fd_pr__nfet_01v8 w=42 l=50
+X7 a_308_n101# a_95_n101# vdd vdd sky130_fd_pr__pfet_01v8 w=100 l=50
