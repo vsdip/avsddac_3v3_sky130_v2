@@ -205,12 +205,10 @@ It was observed that with increase in the resolution of DAC, the number of steps
 1. Clone this repository using the commands:
 ```
 $ sudo apt install -y git
-$ git clone https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC.git
+$ git clone https://github.com/vsdip/avsddac_3v3_sky130_v2.git
 ```
 
-Note: The entire sky130_fd_pr can be downloaded by following this [link](https://github.com/Deepak42074/vsdsram_sky130#installing-and-cloning-instructions). The sky130_fd_pr folder should be placed in the DAC_Prelayout folder. However, the required model files are already present in DAC_Prelayout folder.
-
-2. Open the 10Bit_potentiometric_DAC folder in the terminal.
+2. Change diectory to avsddac_3v3_sky130_v2 by typing ```$ cd avsddac_3v3_sky130_v2```
 
 3. Got to the respective DAC folder by using the command ```$ cd nbit_DAC/```
 
@@ -332,10 +330,10 @@ The output could not be obtained as the ngspice session got killed.
 1. Clone this repository using the commands:
 ```
 $ sudo apt install -y git
-$ git clone https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC.git
+$ git clone https://github.com/vsdip/avsddac_3v3_sky130_v2.git
 ```
 
-2. Open the 10Bit_potentiometric_DAC folder in the terminal.
+2. Change diectory to avsddac_3v3_sky130_v2 by typing ```$ cd avsddac_3v3_sky130_v2```
 
 3. Go to the Post Layout Simulation folder by using the command ```$ cd Post\ Layout\ Simulation/```
 
