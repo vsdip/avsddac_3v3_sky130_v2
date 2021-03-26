@@ -152,6 +152,7 @@ C8 a_1781_749# SUB 2.04fF
 C9 a_1880_749# SUB 2.02fF
 C10 a_812_1076# SUB 2.20fF
 C11 a_813_1491# SUB 2.33fF
+Cout vout 0 50fF
 
 Vdd vdd 0 dc 1.8
 Vsub SUB 0 dc 0
