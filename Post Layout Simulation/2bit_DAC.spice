@@ -35,6 +35,7 @@ X27 a_n121_n45# a_368_55# a_576_55# vdd sky130_fd_pr__pfet_01v8 w=1.0 l=0.5
 C0 vdd SUB 3.13fF
 C1 a_575_n360# SUB 2.20fF
 C2 a_576_55# SUB 2.33fF
+Cout vout 0 50fF
 
 Vdd vdd 0 dc 1.8
 Vsub SUB 0 dc 0
