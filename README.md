@@ -220,7 +220,7 @@ The layout of these circuits is to be drawn in magic using sky130 tech file.
 
 The layout for resistor was drawn as shown below:
 
-![resistor](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/resistor.png)
+![resistor](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/resistor.png)
 
 The resistance of this resistor was found to be 517.89 ohm.
 
@@ -228,84 +228,84 @@ The resistance of this resistor was found to be 517.89 ohm.
 
 The layout for switch was drawn as shown below:
 
-![switch layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/switch.png)
+![switch layout](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/switch.png)
 
 
 ## 2bit DAC
 
 The layout for 2bit DAC was drawn as shown below:
 
-![2bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/2bit_DAC.png)
+![2bitDAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/2bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
 
-![2bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/2bit_DACsim.png)
+![2bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/2bit_DACsim.png)
 
 ## 3bit DAC
 
 The layout for 3bit DAC was drawn as shown below:
 
-![3bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/3bit_DAC.png)
+![3bitDAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/3bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
 
-![3bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/3bit_DACsim.png)
+![3bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/3bit_DACsim.png)
 
 ## 4bit DAC
 
 The layout for 4bit DAC was drawn as shown below:
 
-![4bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/4bit_DAC.png)
+![4bitDAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/4bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
 
-![4bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/4bit_DACsim.png)
+![4bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/4bit_DACsim.png)
 
 ## 5bit DAC
 
 The layout for 5bit DAC was drawn as shown below:
 
-![5bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/5bit_DAC.png)
+![5bitDAC layout](hhttps://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/5bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
 
-![5bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/5bit_DACsim.png)
+![5bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/5bit_DACsim.png)
 
 ## 6bit DAC
 
 The layout for 6bit DAC was drawn as shown below:
 
-![6bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/6bit_DAC.png)
+![6bitDAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/6bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
 
-![6bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/6bit_DACsim.png)
+![6bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/6bit_DACsim.png)
 
 ## 7bit DAC
 
 The layout for 7bit DAC was drawn as shown below:
 
-![7bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/7bit_DAC.png)
+![7bitDAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/7bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
 
-![7bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/7bit_DACsim.png)
+![7bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/7bit_DACsim.png)
 
 ## 8bit DAC
 
 The layout for 8bit DAC was drawn as shown below:
 
-![8bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/8bit_DAC.png)
+![8bitDAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/8bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
 
-![8bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/8bit_DACsim2.png)
+![8bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/8bit_DACsim2.png)
 
 ## 9bit DAC
 
 The layout for 9bit DAC was drawn as shown below:
 
-![9bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/9bit_DAC.png)
+![9bitDAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/9bit_DAC.png)
 
 The output could not be obtained as the ngspice session got killed.
 
@@ -313,7 +313,7 @@ The output could not be obtained as the ngspice session got killed.
 
 The layout for 10bit DAC was drawn as shown below:
 
-![10bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/10bit_DAC.png)
+![10bitDAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/10bit_DAC.png)
 
 The output could not be obtained as the ngspice session got killed.
 
