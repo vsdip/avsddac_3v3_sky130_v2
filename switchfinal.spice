@@ -1,0 +1,27 @@
+*switch
+.options wnflag=1
+
+*Including sky130 device model
+.include "sky130_fd_pr/models/custom1.spice"
+
+
+xm1 net-_m1-pad1_ digital_input0 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+xm2 net-_m2-pad1_ net-_m1-pad1_ vdd vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+xm3 vout net-_m1-pad1_ vin_1 vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+xm4 vin_2 net-_m2-pad1_ vout vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+xm5 net-_m1-pad1_ digital_input0 gnd gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+xm6 net-_m2-pad1_ net-_m1-pad1_ gnd gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+xm7 vout net-_m1-pad1_ vin_2 gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+xm8 vin_1 net-_m2-pad1_ vout gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+
+Vdd vdd 0 3.3
+Vin_1 vin_1 0 2.5
+Vin_2 vin_2 0 2.2
+Vd0 digital_input0 0 pulse(0 1.8 0ns 0.1ns 0.1ns 5ns 10ns)
+
+.tran 0.1ns 20ns
+.control
+run
+plot vout digital_input0  
+.endc
+.end

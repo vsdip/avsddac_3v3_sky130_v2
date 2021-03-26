@@ -1,0 +1,21 @@
+* Subcircuit switch
+.options wnflag=1
+
+*Including sky130 device model
+.include "sky130_fd_pr/models/custom1.spice"
+
+.subckt switch /vin_1 /vin_2 /vdd /digital_input /vout  
+
+* c:\fossee\esim\library\subcircuitlibrary\switch\switch.cir
+
+xm2  net-_m1-pad1_ /digital_input /vdd /vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+xm5  net-_m3-pad1_ net-_m1-pad1_ /vdd /vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+xm6  /vout net-_m1-pad1_ /vin_1 /vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+xm7  /vin_2 net-_m3-pad1_ /vout /vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+xm1  net-_m1-pad1_ /digital_input gnd gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+xm3  net-_m3-pad1_ net-_m1-pad1_ gnd gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+xm4  /vout net-_m1-pad1_ /vin_2 gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+xm8  /vin_1 net-_m3-pad1_ /vout gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+* Control Statements
+
+.ends switch

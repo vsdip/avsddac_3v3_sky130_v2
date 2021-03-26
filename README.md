@@ -1,4 +1,3 @@
-# avsddac_3v3_sky130_v2
 # 10Bit_potentiometric_DAC
 
 This repository presents the design of a 10 Bit Potentiometric Digital to Analog Converter with 3.3V analog voltage, 1.8V digital voltage and 1 off-chip external reference using the sky130 technology.The specifications of the design can be found [here](https://github.com/neethujohny/avsddac_3v3/files/5164067/pdac_IP.pdf).

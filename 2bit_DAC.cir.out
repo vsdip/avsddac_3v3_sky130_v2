@@ -1,0 +1,20 @@
+* c:\users\91809\esim-workspace\2bit_dac\2bit_dac.cir
+
+.include switch.sub
+r4  /vdd net-_r3-pad1_ 250
+r3  net-_r3-pad1_ net-_r2-pad1_ 250
+r2  net-_r2-pad1_ net-_r1-pad1_ 250
+r1  net-_r1-pad1_ gnd 250
+* u1  /vdd /d0 /d1 /vout port
+x1 /d0 /vdd net-_r3-pad1_ net-_r2-pad1_ net-_x1-pad5_ switch
+x2 /d0 /vdd net-_r1-pad1_ gnd net-_x2-pad5_ switch
+x3 /d1 /vdd net-_x1-pad5_ net-_x2-pad5_ /vout switch
+.tran 0.1ns 20ns
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc
+.end

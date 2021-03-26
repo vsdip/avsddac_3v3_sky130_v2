@@ -1,0 +1,49 @@
+*switch
+.options wnflag=1
+
+*Including sky130 device model
+.include "sky130_fd_pr/models/custom1.spice"
+
+r1  vdd vin_1 250
+r2  vin_1 vin_2 250
+r3  vin_2 vin_3 250
+r4  vin_3 gnd 250 
+
+xm1 net-_m1-pad1_ digital_input0 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+xm2 net-_m2-pad1_ net-_m1-pad1_ vdd vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+xm3 vin_a net-_m1-pad1_ vin_1 vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+xm4 vin_2 net-_m2-pad1_ vin_a vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+xm5 net-_m1-pad1_ digital_input0 gnd gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+xm6 net-_m2-pad1_ net-_m1-pad1_ gnd gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+xm7 vin_a net-_m1-pad1_ vin_2 gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+xm8 vin_1 net-_m2-pad1_ vin_a gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+
+x1m1 net-_m3-pad1_ digital_input0 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+x1m2 net-_m4-pad1_ net-_m3-pad1_ vdd vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+x1m3 vin_b net-_m3-pad1_ vin_3 vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+x1m4 gnd net-_m4-pad1_ vin_b vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+x1m5 net-_m3-pad1_ digital_input0 gnd gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+x1m6 net-_m4-pad1_ net-_m3-pad1_ gnd gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+x1m7 vin_b net-_m3-pad1_ gnd gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+x1m8 vin_3 net-_m4-pad1_ vin_b gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+
+x2m1 net-_ma-pad1_ digital_input1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+x2m2 net-_mb-pad1_ net-_ma-pad1_ vdd vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+x2m3 vout net-_ma-pad1_ vin_a vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+x2m4 vin_b net-_mb-pad1_ vout vdd sky130_fd_pr__pfet_g5v0d10v5 w=1 l=0.5 
+x2m5 net-_ma-pad1_ digital_input1 gnd gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+x2m6 net-_mb-pad1_ net-_ma-pad1_ gnd gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+x2m7 vout net-_ma-pad1_ vin_b gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+x2m8 vin_a net-_mb-pad1_ vout gnd sky130_fd_pr__nfet_03v3_nvt w=.42 l=.8 
+
+
+Vdd vdd 0 3.3
+Vd0 digital_input0 0 pulse(0 1.8 0ns 0.1ns 0.1ns 5ns 10ns)
+Vd1 digital_input1 0 pulse(0 1.8 0ns 0.1ns 0.1ns 10ns 20ns)
+
+.tran 0.1ns 20ns
+.control
+run
+plot vout digital_input0 digital_input1 
+.endc
+.end
