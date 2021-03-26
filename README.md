@@ -317,6 +317,26 @@ The layout for 10bit DAC was drawn as shown below:
 
 The output could not be obtained as the ngspice session got killed.
 
+## Executing the postlayout design simulations
+
+1. Clone this repository using the commands:
+```
+$ sudo apt install -y git
+$ git clone https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC.git
+```
+
+2. Open the 10Bit_potentiometric_DAC folder in the terminal.
+
+3. Go to the Post Layout Simulation folder by using the command ```$ cd Post\ Layout\ Simulation/```
+
+4. Run the command ```$ git clone https://foss-eda-tools.googlesource.com/skywater-pdk/libs/sky130_fd_pr``` to download the sky130_fd_pr folder.
+
+5. Then, to run the spice file, run the command:
+```
+$ ngspice <nbit_DAC.spice>
+```
+
+The simulations of higher bit DACs consume more time. 
 
 # Further Work
 
