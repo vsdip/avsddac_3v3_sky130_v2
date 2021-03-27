@@ -191,7 +191,7 @@ For the 10 bit DAC, the subcircuits 9bit_DAC.sub and switch.sub were used. The e
 
 The transient response of this schematic is as shown below:
 
-![10bitDAC](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/DAC_Prelayout/Screenshots/10bit_DACsim.png)
+![10bitDAC](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/DAC_Prelayout/Screenshots/10bit_DAC_output.png)
 
 # Observation
 
