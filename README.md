@@ -335,7 +335,7 @@ $ sudo apt install -y git
 $ git clone https://github.com/vsdip/avsddac_3v3_sky130_v2.git
 ```
 
-2. Change diectory to avsddac_3v3_sky130_v2 by typing ```$ cd avsddac_3v3_sky130_v2```
+2. Change directory to avsddac_3v3_sky130_v2 by typing ```$ cd avsddac_3v3_sky130_v2/```
 
 3. Go to the Post Layout Simulation folder by using the command ```$ cd Post\ Layout\ Simulation/```
 
