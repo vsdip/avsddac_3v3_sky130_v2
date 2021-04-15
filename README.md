@@ -30,9 +30,9 @@ This repository presents the design of a 10 Bit Potentiometric Digital to Analog
   * [10bit DAC](#10bit-dac)
 - [6. Executing the postlayout design simulations](#executing-the-postlayout-design-simulations)
 - [7. Further Work](#further-work)
-- [8. Author](#author)
+- [8. Contributors](#contributors)
 - [9. Acknowledgements](#acknowledgements)
-- [10. Contact Information](#contact-information)
+
 
 # Introduction
 
@@ -352,16 +352,11 @@ The simulations of higher bit DACs consume more time.
 
 Further work would be to obtain the simulatios of 9 bit DAC and 10 bit DAC and calculate INL and DNL for 10 bit DAC.
 
-# Author
+# Contributors
 
-* Sameer S Durgoji , B.Tech (Electronics and Communication Engineering), National Institute of Technology Karnataka
+* Sameer S Durgoji , B.Tech (Electronics and Communication Engineering), National Institute of Technology Karnataka - sameerdurgoji@gmail.com
+* Kunal Ghosh, Co-Founder of VLSI System Design (VSD) Corp. Pvt. Ltd. - kunalghosh@gmail.com
 
 # Acknowledgements
 
- * Kunal Ghosh, Co-Founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
-
-# Contact Information
-
-Sameer S Durgoji , B.Tech (Electronics and Communication Engineering), National Institute of Technology Karnataka
-
-sameerdurgoji@gmail.com
+ * Kunal Ghosh, Co-Founder of VLSI System Design (VSD) Corp. Pvt. Ltd. - kunalghosh@gmail.com
