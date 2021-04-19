@@ -317,7 +317,8 @@ The layout for 9bit DAC was drawn as shown below:
 
 ![9bitDAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/9bit_DAC.png)
 
-The output could not be obtained as the ngspice session got killed.
+The spice file was extracted and the output was observed as shown below:
+![9bitDAC_sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/9bit_DAClayout_output.png)
 
 ## 10bit DAC
 
@@ -325,7 +326,8 @@ The layout for 10bit DAC was drawn as shown below:
 
 ![10bitDAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/10bit_DAC.png)
 
-The output could not be obtained as the ngspice session got killed.
+The spice file was extracted and the output was observed as shown below:
+![10bitDAC_sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Layout%20screenshots/10bit_DAClayout_output.png)
 
 ## Executing the postlayout design simulations
 
