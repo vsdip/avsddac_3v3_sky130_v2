@@ -64,6 +64,18 @@ VREFL	   |Reference voltage low	   |0			|      |          |V 	   |T=-40 to 85C
 RES	     |Resolution		             |    |10		  |          |bit	  |T=27C
 VFS	     |Full Scale Voltage	      |0		 |      |3.291627	 |V	    |T=27C
 
+Name	| Pin No.	|I/O	|Description
+-----|---------|----|------------
+D [0:9]	|1-10	|I	|Digital inputs
+EN	|11	|I	|Enable pin
+VDD	|12	|I	|Digital power supply (1.8)
+VSS	|13	|I	|Digital ground
+OUT	|14	|O |DAC analog voltage output
+VDDA	|15	|I	|Analog voltage supply (3.3)
+VSSA	|16	|I	|Analog ground
+VREFH	|17	|I	|Reference voltage high for DAC(3.3)
+VREFL	|18	|I	|Reference voltage low for DAC
+
 # Pre Layout Simulations
 
 The tools used for these simulations are:
