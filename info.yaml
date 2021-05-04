@@ -1,0 +1,19 @@
+---
+project:
+  description: "10 Bit Potentiometric Digital to Analog Converter-avsddac_3v3_sky130_v2"
+  foundry: "SkyWater"
+  git_url: "https://github.com/vsdip/avsddac_3v3_sky130_v2.git"
+  organization: "VSD Corp. Pvt. Ltd."
+  organization_url: "https://www.vlsisystemdesign.com/"
+  owner: "Sameer S Durgoji"
+  process: "SKY130"
+  project_name: "Caravel"
+  project_id: "00000000"
+  tags:
+    - "Open MPW"
+    - "Test Harness"
+  category: "Test Harness"
+  top_level_netlist: "caravel/verilog/gl/caravel.v"
+  user_level_netlist: "verilog/gl/user_project_wrapper.v"
+  version: "1.00"
+  cover_image: "Layout screenshots/10bit_DAC.png"
