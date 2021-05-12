@@ -1,0 +1,37 @@
+* SPICE3 file created from 2bit_DAC.ext - technology: sky130A
+
+.option scale=10000u
+
+X0 a_1306_n144# a_1093_n144# vdd vdd sky130_fd_pr__pfet_01v8 w=100 l=50
+X1 a_n161_n249# a_367_n454# a_575_n454# gnd sky130_fd_pr__nfet_01v8 w=42 l=50
+X2 a_n161_n19# a_n161_n249# gnd sky130_fd_pr__res_generic_nd w=17 l=81
+X3 a_155_100# d0 vdd vdd sky130_fd_pr__pfet_01v8 w=100 l=50
+X4 a_576_100# a_155_100# a_n161_210# vdd sky130_fd_pr__pfet_01v8 w=100 l=50
+X5 a_575_n454# a_154_n454# a_n161_n249# vdd sky130_fd_pr__pfet_01v8 w=100 l=50
+X6 vout a_1093_n144# a_575_n454# gnd sky130_fd_pr__nfet_01v8 w=42 l=50
+X7 vref a_n161_210# gnd sky130_fd_pr__res_generic_nd w=17 l=81
+X8 a_n161_210# a_368_100# a_576_100# gnd sky130_fd_pr__nfet_01v8 w=42 l=50
+X9 a_575_n454# a_154_n454# gnd gnd sky130_fd_pr__nfet_01v8 w=42 l=50
+X10 a_368_100# a_155_100# gnd gnd sky130_fd_pr__nfet_01v8 w=42 l=50
+X11 a_1093_n144# d1 vdd vdd sky130_fd_pr__pfet_01v8 w=100 l=50
+X12 vout a_1093_n144# a_576_100# vdd sky130_fd_pr__pfet_01v8 w=100 l=50
+X13 a_n161_n249# gnd gnd sky130_fd_pr__res_generic_nd w=17 l=81
+X14 a_367_n454# a_154_n454# vdd vdd sky130_fd_pr__pfet_01v8 w=100 l=50
+X15 a_n161_210# a_n161_n19# gnd sky130_fd_pr__res_generic_nd w=17 l=81
+X16 a_1306_n144# a_1093_n144# gnd gnd sky130_fd_pr__nfet_01v8 w=42 l=50
+X17 a_154_n454# d0 vdd vdd sky130_fd_pr__pfet_01v8 w=100 l=50
+X18 a_n161_n19# a_368_100# a_576_100# vdd sky130_fd_pr__pfet_01v8 w=100 l=50
+X19 a_1093_n144# d1 gnd gnd sky130_fd_pr__nfet_01v8 w=42 l=50
+X20 a_368_100# a_155_100# vdd vdd sky130_fd_pr__pfet_01v8 w=100 l=50
+X21 gnd a_367_n454# a_575_n454# vdd sky130_fd_pr__pfet_01v8 w=100 l=50
+X22 a_367_n454# a_154_n454# gnd gnd sky130_fd_pr__nfet_01v8 w=42 l=50
+X23 a_576_100# a_1306_n144# vout gnd sky130_fd_pr__nfet_01v8 w=42 l=50
+X24 a_154_n454# d0 gnd gnd sky130_fd_pr__nfet_01v8 w=42 l=50
+X25 a_155_100# d0 gnd gnd sky130_fd_pr__nfet_01v8 w=42 l=50
+X26 a_576_100# a_155_100# a_n161_n19# gnd sky130_fd_pr__nfet_01v8 w=42 l=50
+X27 a_575_n454# a_1306_n144# vout vdd sky130_fd_pr__pfet_01v8 w=100 l=50
+C0 a_n161_n249# gnd 2.75fF
+C1 a_575_n454# gnd 2.79fF
+C2 a_n161_n19# gnd 2.38fF
+C3 a_576_100# gnd 2.38fF
+C4 vdd gnd 3.89fF
