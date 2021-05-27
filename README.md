@@ -261,7 +261,7 @@ The layout for 2bit DAC was drawn as shown below:
 
 The spice file was extracted and the output was observed as shown below:
 
-![2bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/2bit_DAC_output.png)
+![2bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/2bit_output.png)
 
 ## 3bit DAC
 
@@ -271,7 +271,7 @@ The layout for 3bit DAC was drawn as shown below:
 
 The spice file was extracted and the output was observed as shown below:
 
-![3bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/3bit_DAC_output.png)
+![3bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/3bit_output.png)
 
 ## 4bit DAC
 
@@ -281,7 +281,7 @@ The layout for 4bit DAC was drawn as shown below:
 
 The spice file was extracted and the output was observed as shown below:
 
-![4bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/4bit_DAC_output.png)
+![4bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/4bit_output.png)
 
 ## 5bit DAC
 
@@ -291,7 +291,7 @@ The layout for 5bit DAC was drawn as shown below:
 
 The spice file was extracted and the output was observed as shown below:
 
-![5bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/5bit_DAC_output.png)
+![5bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/5bit_output.png)
 
 ## 6bit DAC
 
@@ -301,7 +301,7 @@ The layout for 6bit DAC was drawn as shown below:
 
 The spice file was extracted and the output was observed as shown below:
 
-![6bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/6bit_DAC_output.png)
+![6bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/6bit_output.png)
 
 ## 7bit DAC
 
@@ -311,7 +311,7 @@ The layout for 7bit DAC was drawn as shown below:
 
 The spice file was extracted and the output was observed as shown below:
 
-![7bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/7bit_DAC_output.png)
+![7bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/7bit_output.png)
 
 ## 8bit DAC
 
@@ -321,7 +321,7 @@ The layout for 8bit DAC was drawn as shown below:
 
 The spice file was extracted and the output was observed as shown below:
 
-![8bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/8bit_DAC_output.png)
+![8bitDAC sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/8bit_output.png)
 
 ## 9bit DAC
 
@@ -330,7 +330,7 @@ The layout for 9bit DAC was drawn as shown below:
 ![9bitDAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/9bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
-![9bitDAC_sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/9bit_DAC_output.png)
+![9bitDAC_sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/9bit_output.png)
 
 ## 10bit DAC
 
@@ -339,7 +339,7 @@ The layout for 10bit DAC was drawn as shown below:
 ![10bitDAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/10bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
-![10bitDAC_sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/10bit_DAC_output.png)
+![10bitDAC_sim](https://github.com/vsdip/avsddac_3v3_sky130_v2/blob/main/Screenshots/10bit_output.png)
 
 ## Executing the postlayout design simulations
 
