@@ -1,0 +1,40 @@
+* SPICE3 file created from 2bit_DAC.ext - technology: sky130A
+
+.option scale=10000u
+
+X0 a_1203_680# d1 vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X1 vout a_1203_680# a_576_684# vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X2 a_n253_113# a_368_5# a_576_5# gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X3 a_n253_368# a_368_684# a_576_684# vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X4 a_576_684# a_1416_680# vout gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X5 a_576_5# a_155_5# gnd gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X6 a_368_684# a_155_684# vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X7 a_155_684# d0 gnd gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X8 a_576_684# a_155_684# a_n253_368# gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X9 a_1416_680# a_1203_680# gnd gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X10 gnd a_368_5# a_576_5# vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X11 a_368_5# a_155_5# gnd gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X12 a_368_5# a_155_5# vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X13 a_576_5# a_1416_680# vout vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X14 vref a_n253_763# gnd sky130_fd_pr__res_generic_nd w=0.17 l=0.81
+X15 a_1416_680# a_1203_680# vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X16 a_n253_113# gnd gnd sky130_fd_pr__res_generic_nd w=0.17 l=0.81
+X17 a_155_684# d0 vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X18 a_576_684# a_155_684# a_n253_763# vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X19 a_n253_763# a_368_684# a_576_684# gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X20 a_1203_680# d1 gnd gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X21 vout a_1203_680# a_576_5# gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X22 a_368_684# a_155_684# gnd gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X23 a_n253_368# a_n253_113# gnd sky130_fd_pr__res_generic_nd w=0.17 l=0.81
+X24 a_155_5# d0 vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X25 a_576_5# a_155_5# a_n253_113# vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X26 a_155_5# d0 gnd gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X27 a_n253_763# a_n253_368# gnd sky130_fd_pr__res_generic_nd w=0.17 l=0.81
+C0 a_n253_113# gnd 2.73fF
+C1 a_576_5# gnd 3.40fF
+C2 d1 gnd 3.32fF
+C3 a_n253_368# gnd 3.17fF
+C4 a_576_684# gnd 2.80fF
+C5 d0 gnd 4.04fF
+C6 a_n253_763# gnd 2.27fF
+C7 vdd gnd 14.46fF

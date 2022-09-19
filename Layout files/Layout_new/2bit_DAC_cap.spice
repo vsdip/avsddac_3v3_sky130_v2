@@ -1,0 +1,44 @@
+* SPICE3 file created from 2bit_DAC_cap.ext - technology: sky130A
+
+.option scale=10000u
+
+X0 vout a_1911_1014# a_1284_339# gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X1 a_455_702# a_455_447# gnd sky130_fd_pr__res_generic_nd w=0.17 l=0.81
+X2 a_1911_1014# d1 gnd gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X3 a_863_1018# d0 vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X4 a_1284_339# a_863_339# a_455_447# vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X5 a_455_1097# a_455_702# gnd sky130_fd_pr__res_generic_nd w=0.17 l=0.81
+X6 vout a_1911_1014# a_1284_1018# vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X7 a_1284_1018# a_863_1018# a_455_702# gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X8 vref a_455_1097# gnd sky130_fd_pr__res_generic_nd w=0.17 l=0.81
+X9 a_1911_1014# d1 vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X10 a_1284_1018# a_863_1018# a_455_1097# vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X11 a_2124_1014# a_1911_1014# gnd gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X12 a_863_339# d0 gnd gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X13 a_455_447# a_1076_339# a_1284_339# gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X14 a_1076_339# a_863_339# gnd gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X15 a_1076_1018# a_863_1018# gnd gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X16 a_2124_1014# a_1911_1014# vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X17 a_1284_1018# a_2124_1014# vout gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X18 a_863_339# d0 vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X19 gnd a_1076_339# a_1284_339# vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X20 a_1076_339# a_863_339# vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X21 c1_3748_886# m3_3024_102# sky130_fd_pr__cap_mim_m3_1 l=12148 w=12063
+X22 a_1076_1018# a_863_1018# vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X23 a_1284_339# a_2124_1014# vout vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X24 a_455_1097# a_1076_1018# a_1284_1018# gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X25 a_455_447# gnd gnd sky130_fd_pr__res_generic_nd w=0.17 l=0.81
+X26 a_863_1018# d0 gnd gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+X27 a_455_702# a_1076_1018# a_1284_1018# vdd sky130_fd_pr__pfet_01v8 w=1 l=0.50
+X28 a_1284_339# a_863_339# gnd gnd sky130_fd_pr__nfet_01v8 w=0.42 l=0.50
+C0 vout m3_3024_102# 635.34fF
+C1 m3_3024_102# gnd 22.23fF
+C2 a_455_447# gnd 2.73fF
+C3 a_1284_339# gnd 3.40fF
+C4 vout gnd 495.44fF
+C5 d1 gnd 3.32fF
+C6 a_455_702# gnd 3.17fF
+C7 a_1284_1018# gnd 2.80fF
+C8 d0 gnd 4.04fF
+C9 a_455_1097# gnd 2.27fF
+C10 vdd gnd 14.46fF
